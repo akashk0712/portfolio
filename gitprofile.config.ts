@@ -32,13 +32,12 @@ const CONFIG = {
       header: 'My Projects',
       // To hide the `External Projects` section, keep it empty.
       projects: [
-        {
-          title: 'Project Name',
-          description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
-          imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+        { 
+      institution: 'Madhav Institute of Technology and Science Gwalior',
+      degree: 'Bachelor of Technology',
+      stream: 'Information Technology',
+      from: '2020',
+      to: '2024',
         },
         {
           title: 'Project Name',
@@ -57,12 +56,11 @@ const CONFIG = {
     imageURL: '',
   },
   social: {
-    linkedin: 'akash-kachhaway',
-    twitter: 'arif_szn',
-    medium: 'arifszn',
-    dev: 'arifszn',
-    stackoverflow: '', // example: '1/jeff-atwood'
     email: 'kachhawayakash@gmail.com',
+    linkedin: 'akash-kachhaway',
+    twitter: 'akash-kachhaway',
+    medium: 'https://medium.com/@akashky0712',
+    stackoverflow: 'https://stackoverflow.com/users/22844564/akash-kachhaway', // example: '1/jeff-atwood'
   },
   resume: {
     fileUrl:
@@ -76,9 +74,9 @@ const CONFIG = {
     'Node.js',
     'MongoDB',
     'MySQL',
-    'Data Structures',
     'Git',
     'Docker',
+    'Data Structures',
     'Machine Learning',
     'Web Development',
   ],
@@ -96,7 +94,7 @@ const CONFIG = {
       to: 'November 2024',
     },
   ],
-  educations: [
+  education: [
     {
       institution: 'Madhav Institute of Technology and Science Gwalior',
       degree: 'Bachelor of Technology',
@@ -113,9 +111,6 @@ const CONFIG = {
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
-    source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
-    limit: 3, // How many articles to display. Max is 10.
   },
 
   googleAnalytics: {
@@ -141,10 +136,7 @@ const CONFIG = {
     displayAvatarRing: true,
 
     // Available themes. To remove any theme, exclude from here.
-    themes: [
-      'light',
-      'dark',
-    ],
+    
   },
 
   // Optional Footer. Supports plain text or HTML.
