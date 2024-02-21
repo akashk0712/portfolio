@@ -140,7 +140,7 @@ const CONFIG = {
     //themes: [
       //'light',
       //'dark',
-    ],
+    //],
   },
 
   // Optional Footer. Supports plain text or HTML.
